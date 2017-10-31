@@ -1,0 +1,574 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.languages" content="">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
+      
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.12.2">
+    
+    
+      
+        <title>Django - HVN</title>
+      
+    
+    
+      <script src="../assets/javascripts/modernizr-e826f8942a.js"></script>
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application-04ea671600.css">
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+  
+  
+  
+    <body>
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="HVN" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon md-icon--home"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+            
+            Django
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon md-icon--home"></i>
+      
+    </span>
+    HVN
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Django
+      </label>
+    
+    <a href="./" title="Django" class="md-nav__link md-nav__link--active">
+      Django
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-the-differences" title="What is the differences" class="md-nav__link">
+    What is the differences
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requests-and-responses" title="Requests and Responses" class="md-nav__link">
+    Requests and Responses
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#request" title="Request" class="md-nav__link">
+    Request
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tbd" title="TBD" class="md-nav__link">
+    TBD
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../now/" title="Now" class="md-nav__link">
+      Now
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-the-differences" title="What is the differences" class="md-nav__link">
+    What is the differences
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requests-and-responses" title="Requests and Responses" class="md-nav__link">
+    Requests and Responses
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#request" title="Request" class="md-nav__link">
+    Request
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tbd" title="TBD" class="md-nav__link">
+    TBD
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="django-as-a-library">Django as a library</h1>
+<p>(Django for people come from Flask, or pure Python).</p>
+<p>I've tried to learn Django so many times, IIRC, from Django 1.4, and now it is 2.0
+and I still haven't got it. I just follow the main tutorial on its homepage,
+finished it for so many times, but that does not make me understand Django
+at all. Something was wrong, and now I think I know it.
+They way I "tried" Django is not the way I used Python libraries.
+For Django, it is top-down, and for all the rest, I learn by bottom-up
+approach.</p>
+<h2 id="what-is-the-differences">What is the differences</h2>
+<p>By learning bottom-up, I know functions, classes that I have, what attributes
+they have, and build things from them. Says, Flask, it is also a web-framework,
+     but it is very Python-like. A Flask view returns a Python string, that's it.
+In Django, the tutorial throws ton of methods, class, shortcuts to you,
+   you might even cannot answer on top of your head what a view returns, and
+   constantly looking up into the document/tutorial, over and over again.</p>
+<p>Let's learn Django in a different way. Treat it as a library.</p>
+<h3 id="requests-and-responses">Requests and Responses</h3>
+<p>When an user accesses the website by using a web browser, the web browser sends
+an HTTP request to the website.
+Django will receive that HTTP request, represents it by an <code>HttpRequest</code> object.
+Django router will handle the request by a view which associates with
+the requested URL.</p>
+<p>The view (often a function, or a class with appropriate method), will be called
+with the requests object as first argument, process it and return to the web-browser a HTTP response.
+A HTTP response contains some data:
+- A HTTP status code indicates the result status - OK, Redirected, Not Found ...
+- A text (Python string or byte in Python3) - so called <code>content</code>, which is usually HTML code, which
+will be rendered by browser and displays beautifully.</p>
+<p>Django represents a HTTP response by <code>HttpResponse</code> object.</p>
+<p>Both HTTP request and response can be seen by "console" or "network" on
+modern (2017+) web browsers. Most of them use Ctrl+U (View source) to view the text returned in response.</p>
+<p>All HTTP Request/Response classes are in <code>django.http</code> sub-module.</p>
+<p>Let's create an <code>HttpResponse</code> objects.</p>
+<p>Written used Django at version</p>
+<pre><code class="Python">In [22]: django.VERSION
+Out[22]: (1, 11, 2, 'final', 0)
+</code></pre>
+
+<pre><code class="Python">In [19]: classes(django.http)
+Out[19]: ['BadHeaderError', 'FileResponse', 'Http404', 'HttpRequest', 'HttpResponse', 'HttpResponseBadRequest', 'HttpResponseForbidden', 'HttpResponseGone', 'HttpResponseNotAllowed', 'HttpResponseNotFound', 'HttpResponseNotModified', 'HttpResponsePermanentRedirect', 'HttpResponseRedirect', 'HttpResponseServerError', 'JsonResponse', 'QueryDict', 'RawPostDataException', 'SimpleCookie', 'StreamingHttpResponse', 'UnreadablePostError']
+
+In [20]: response = django.http.HttpResponse('This is content')
+
+In [21]: vars(response)
+Out[21]: {'cookies': &lt;SimpleCookie: &gt;, 'closed': False, '_handler_class': None, '_charset': None, '_closable_objects': [], '_container': [b'This is content'], '_reason_phrase': None, '_headers': {'content-type': ('Content-Type', 'text/html; charset=utf-8')}}
+</code></pre>
+
+<p><code>vars</code> is very useful, it prints all data attributes of given object.</p>
+<p>So the response object contains some following data:
+- cookies (small string of data, used by browser/web app). Current cookie
+is empty.
+- <code>_headers</code>: contains raw data about HTTP headers, often contains type of response (a file? a normal text? a JSON data? which charset?)
+- <code>_container</code>: contains raw data (in a Python list), which will be join later
+and create response content/text. This is what content user will see.
+- some other attributes that use for other purposes.</p>
+<p>So notice the attribute names which start with underscore (<code>_</code>), that says "please do not change this directly", use other methods. Because in Python, you can change almost every mutable thing.</p>
+<p>All "public" (name not start with underscore) attributes (includes methods) of response:</p>
+<pre><code class="Python">In [42]: pub(response)
+Out[42]: ['charset', 'close', 'closed', 'content', 'cookies', 'delete_cookie', 'flush', 'get', 'getvalue', 'has_header', 'items', 'make_bytes', 'readable', 'reason_phrase', 'seekable', 'serialize', 'serialize_headers', 'set_cookie', 'set_signed_cookie', 'setdefault', 'status_code', 'streaming', 'tell', 'writable', 'write', 'writelines']
+
+</code></pre>
+
+<p>If you are familiar with Python files, these methods <code>flush</code>, <code>write</code>, <code>writelines</code>, <code>tell</code>... are to make
+response object behave as a file.</p>
+<p>Those interesting methods are:
+- <code>status_code</code>: HTTP status code (int)
+- <code>reason_phrase</code>: corresponding reason phrase of the <code>status_code</code> (str)</p>
+<pre><code class="Python">In [43]: response.status_code, response.reason_phrase
+Out[43]: (200, 'OK')
+</code></pre>
+
+<ul>
+<li><code>has_header</code>: check if a header exist</li>
+</ul>
+<pre><code class="Python">In [45]: response._headers
+Out[45]: {'content-type': ('Content-Type', 'text/html; charset=utf-8')}
+
+In [46]: response.has_header('content-type')
+Out[46]: True
+
+In [47]: response.has_header('hack')
+Out[47]: False
+</code></pre>
+
+<p>Manipulate cookie:</p>
+<ul>
+<li><code>delete_cookie</code></li>
+<li><code>set_cookie</code></li>
+<li><code>set_signed_cookie</code></li>
+</ul>
+<p>Let update cookie and see:</p>
+<pre><code class="Python">In [52]: response.set_cookie('username', 'HVN')
+
+In [53]: response.cookies
+Out[53]: &lt;SimpleCookie: username='HVN'&gt;
+
+In [55]: response.set_signed_cookie('password', '123456')
+
+In [57]: response.cookies
+Out[57]: &lt;SimpleCookie: password='123456:1e9Rns:I6L7NFsJiOgRVfBqAGSoHmTXE3I' username='HVN'&gt;
+
+In [58]: response.delete_cookie('username'); response.cookies
+Out[58]: &lt;SimpleCookie: password='123456:1e9Rns:I6L7NFsJiOgRVfBqAGSoHmTXE3I' username=''&gt;
+</code></pre>
+
+<p>So in Django, a view must return an instance of <code>HttpResponse</code> or its sub-class instance.</p>
+<p>Some sub-class are pre-defined for using to return simple responses without content:</p>
+<pre><code>In [59]: classes(django.http.response)
+Out[59]: ['BadHeaderError', 'DisallowedRedirect', 'DjangoJSONEncoder', 'FileResponse', 'Header', 'Http404', 'HttpResponse', 'HttpResponseBadRequest', 'HttpResponseBase', 'HttpResponseForbidden', 'HttpResponseGone', 'HttpResponseNotAllowed', 'HttpResponseNotFound', 'HttpResponseNotModified', 'HttpResponsePermanentRedirect', 'HttpResponseRedirect', 'HttpResponseRedirectBase', 'HttpResponseServerError', 'JsonResponse', 'SimpleCookie', 'StreamingHttpResponse', 'map']
+</code></pre>
+
+<p>Namely:
+- HttpResponseBadRequest:</p>
+<pre><code class="Python">class HttpResponseBadRequest(HttpResponse):
+    status_code = 400
+</code></pre>
+
+<ul>
+<li>HttpResponseServerError:</li>
+</ul>
+<pre><code>class HttpResponseServerError(HttpResponse):
+    status_code = 500
+</code></pre>
+
+<ul>
+<li>HttpResponseRedirect:</li>
+</ul>
+<pre><code>class HttpResponseRedirect(HttpResponseRedirectBase):
+    status_code = 302
+</code></pre>
+
+<p>They just simply set class data attribute <code>status_code</code>.</p>
+<p>Some non-trivial classes:
+- StreamingHttpResponse: only when you want to streaming many data (big file for example).
+- JsonResponse: this is so handy if you want to return a JSON response, the class sets header properly.</p>
+<pre><code class="Python">class JsonResponse(HttpResponse):
+    &quot;&quot;&quot;
+    An HTTP response class that consumes data to be serialized to JSON.
+
+    :param data: Data to be dumped into json. By default only ``dict`` objects
+      are allowed to be passed due to a security flaw before EcmaScript 5. See
+      the ``safe`` parameter for more information.
+    :param encoder: Should be an json encoder class. Defaults to
+      ``django.core.serializers.json.DjangoJSONEncoder``.
+    :param safe: Controls if only ``dict`` objects may be serialized. Defaults
+      to ``True``.
+    :param json_dumps_params: A dictionary of kwargs passed to json.dumps().
+    &quot;&quot;&quot;
+
+    def __init__(self, data, encoder=DjangoJSONEncoder, safe=True,
+                 json_dumps_params=None, **kwargs):
+        if safe and not isinstance(data, dict):
+            raise TypeError(
+                'In order to allow non-dict objects to be serialized set the '
+                'safe parameter to False.'
+            )
+        if json_dumps_params is None:
+            json_dumps_params = {}
+        kwargs.setdefault('content_type', 'application/json')
+        data = json.dumps(data, cls=encoder, **json_dumps_params)
+        super(JsonResponse, self).__init__(content=data, **kwargs)
+</code></pre>
+
+<p>The code is very simple, it set appropriate <code>content_type</code>, then json.dump your given data dict - it is a security problem that it avoids to
+dump non-dict object.</p>
+<pre><code class="Python">In [73]: jr = django.http.JsonResponse({'course': 'PyMivn'})
+
+In [74]: vars(jr)
+Out[74]: {'cookies': &lt;SimpleCookie: &gt;, 'closed': False, '_handler_class': None, '_charset': None, '_closable_objects': [], '_container': [b'{&quot;course&quot;: &quot;PyMivn&quot;}'], '_reason_phrase': None, '_headers': {'content-type': ('Content-Type', 'application/json')}}
+</code></pre>
+
+<p>All the details can see in
+https://docs.djangoproject.com/en/1.11/ref/request-response/
+and the code is surprising easy to read.</p>
+<h3 id="request">Request</h3>
+<h3 id="tbd">TBD</h3>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href=".." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Home
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../now/" title="Now" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Now
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application-946997f430.js"></script>
+      
+      
+      <script>app.initialize({version:"0.16.3",url:{base:".."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

@@ -4,7 +4,15 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-05-16</lastmod>
+     <lastmod>2017-10-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/django/</loc>
+     <lastmod>2017-10-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +20,7 @@
     
     <url>
      <loc>/now/</loc>
-     <lastmod>2017-05-16</lastmod>
+     <lastmod>2017-10-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
