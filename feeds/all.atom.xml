@@ -227,4 +227,4 @@ brk (2)              - change data segment size
 &lt;li&gt;Program uses computer resources via system calls to tell Linux kernel.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;strace&lt;/code&gt; traces system calls&lt;/li&gt;
 &lt;li&gt;system calll are documented at &lt;code&gt;man 2 SYSCALL&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="sysadmin"></category><category term="linux"></category><category term="system call"></category><category term="syscall"></category><category term="strace"></category></entry></feed>
+&lt;/ul&gt;</content><category term="Homepage"></category><category term="sysadmin"></category><category term="linux"></category><category term="system call"></category><category term="syscall"></category><category term="strace"></category></entry></feed>

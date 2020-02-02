@@ -1,0 +1,58 @@
+# -*- mode: rec -*-
+
+%rec: Books
+%mandatory: Title
+%mandatory: Author
+%mandatory: Rating
+%type: Status enum todo reading finished
+%type: Would_Read_Again enum yes no
+%type: Rating range 1 5
+%type: Date_Read date
+%doc:
++ A book in my personal collection.
+
+Title: The Brothers Karamazov
+Author: Fyodor Dostoevsky
+URL: https://standardebooks.org/ebooks/fyodor-dostoevsky/the-brothers-karamazov/constance-garnett
+Status: reading
+Rating: 0
+Date_Read:
+Review:
+
+
+Title: Siddhartha
+Author: Hermann Hesse
+URL: https://standardebooks.org/ebooks/hermann-hesse/siddhartha/gunther-olesch_anke-dreher_amy-coulter_stefan-langer_semyon-chaichenets
+Status: finished
+Rating: 5
+Date_Read: 2020/02/02
+Would_Read_Again: yes
+Review: Very poetic, insightful.
+
+
+Title: The War of the Worlds
+Author: H. G. Wells
+URL: https://standardebooks.org/ebooks/h-g-wells/the-war-of-the-worlds
+Status: finished
+Rating: 3
+Review: Nice ending twist, this would be more amazing 100 years ago.
+Date_Read: 2020/01/25
+Genre: scifi
+
+Title: The Invisible Man
+Author: H. G. Wells
+URL: https://standardebooks.org/ebooks/h-g-wells/the-invisible-man
+Status: finished
+Rating: 4
+Date_Read: 2019/12/08
+
+Title: Armageddon 2419 A.D.
+Author: Philip Francis Nowlan
+URL: https://standardebooks.org/ebooks/philip-francis-nowlan/armageddon-2419-a-d
+Status: finished
+Rating: 2
+Review: Nothing's special.
+Date_Read: 2020/01/20
+Genre: scifi
+
+# End of books.rec
