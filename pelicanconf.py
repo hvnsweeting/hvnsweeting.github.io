@@ -43,6 +43,7 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 8
+PAGE_URL = '{slug}/'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
