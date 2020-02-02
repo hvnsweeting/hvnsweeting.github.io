@@ -44,6 +44,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 8
 PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = 'pages/{slug}/index.html'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
