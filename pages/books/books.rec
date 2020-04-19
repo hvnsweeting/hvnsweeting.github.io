@@ -8,6 +8,7 @@
 %type: Would_Read_Again enum yes no
 %type: Rating range 1 5
 %type: Date_Read date
+%sort: Date_Read
 %doc:
 + A book in my personal collection.
 
@@ -61,8 +62,25 @@ URL: https://en.wikipedia.org/wiki/Homo_Deus:_A_Brief_History_of_Tomorrow
 Status: finished
 Rating: 3
 Review: The first half is repeatitive things from `Sapien` book. The remaining discusses religions such as liberalism, communism, democracy, humanism, dataism and list out future scenarious are more interesting.
-
 Date_Read: 2020/04/11
 Genre: Non-fiction
+
+Title: The Adventures of Huckleberry Finn
+Author: Mark Twain
+URL: https://standardebooks.org/ebooks/mark-twain/the-adventures-of-huckleberry-finn
+Status: finished
+Rating: 3
+Review: A kid story, not so interesting until the very end.
+Date_Read: 2020/04/12
+Genre: Fiction
+
+Title: Heart of darkness
+Author: Joseph Conrad
+URL: https://standardebooks.org/ebooks/joseph-conrad/heart-of-darkness
+Status: finished
+Rating: 2
+Review: Very dense, hard to read/grasp the meanings. Maybe read later.
+Date_Read: 2020/04/19
+Genre: Fiction
 
 # End of books.rec
