@@ -8,6 +8,7 @@
 %type: Would_Read_Again enum yes no
 %type: Rating range 1 5
 %type: Date_Read date
+%sort: Date_Read
 %doc:
 + A book in my personal collection.
 
@@ -61,7 +62,6 @@ URL: https://en.wikipedia.org/wiki/Homo_Deus:_A_Brief_History_of_Tomorrow
 Status: finished
 Rating: 3
 Review: The first half is repeatitive things from `Sapien` book. The remaining discusses religions such as liberalism, communism, democracy, humanism, dataism and list out future scenarious are more interesting.
-
 Date_Read: 2020/04/11
 Genre: Non-fiction
 
