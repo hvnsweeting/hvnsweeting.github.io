@@ -1,0 +1,133 @@
+# -*- mode: rec -*-
+
+%rec: Books
+%mandatory: Title
+%mandatory: Author
+%mandatory: Rating
+%type: Status enum todo reading finished
+%type: Would_Read_Again enum yes no
+%type: Rating range 1 5
+%type: Date_Read date
+%sort: Date_Read
+%doc:
++ A book in my personal collection.
+
+Title: The Brothers Karamazov
+Author: Fyodor Dostoevsky
+URL: https://standardebooks.org/ebooks/fyodor-dostoevsky/the-brothers-karamazov/constance-garnett
+Status: reading
+Rating: 0
+Date_Read:
+Review:
+
+
+Title: Siddhartha
+Author: Hermann Hesse
+URL: https://standardebooks.org/ebooks/hermann-hesse/siddhartha/gunther-olesch_anke-dreher_amy-coulter_stefan-langer_semyon-chaichenets
+Status: finished
+Rating: 5
+Date_Read: 2020/02/02
+Would_Read_Again: yes
+Review: Very poetic, insightful.
+
+
+Title: The War of the Worlds
+Author: H. G. Wells
+URL: https://standardebooks.org/ebooks/h-g-wells/the-war-of-the-worlds
+Status: finished
+Rating: 3
+Review: Nice ending twist, this would be more amazing 100 years ago.
+Date_Read: 2020/01/25
+Genre: scifi
+
+Title: The Invisible Man
+Author: H. G. Wells
+URL: https://standardebooks.org/ebooks/h-g-wells/the-invisible-man
+Status: finished
+Rating: 4
+Date_Read: 2019/12/08
+
+Title: Armageddon 2419 A.D.
+Author: Philip Francis Nowlan
+URL: https://standardebooks.org/ebooks/philip-francis-nowlan/armageddon-2419-a-d
+Status: finished
+Rating: 2
+Review: Nothing's special.
+Date_Read: 2020/01/20
+Genre: scifi
+
+Title: Homo Deus
+Author: Yuval Noah Harari
+URL: https://en.wikipedia.org/wiki/Homo_Deus:_A_Brief_History_of_Tomorrow
+Status: finished
+Rating: 3
+Review: The first half is repeatitive things from `Sapien` book. The remaining discusses religions such as liberalism, communism, democracy, humanism, dataism and list out future scenarious are more interesting.
+Date_Read: 2020/04/11
+Genre: Non-fiction
+
+Title: The Adventures of Huckleberry Finn
+Author: Mark Twain
+URL: https://standardebooks.org/ebooks/mark-twain/the-adventures-of-huckleberry-finn
+Status: finished
+Rating: 3
+Review: A kid story, not so interesting until the very end.
+Date_Read: 2020/04/12
+Genre: Fiction
+
+Title: Heart of darkness
+Author: Joseph Conrad
+URL: https://standardebooks.org/ebooks/joseph-conrad/heart-of-darkness
+Status: finished
+Rating: 2
+Review: Very dense, hard to read/grasp the meanings. Maybe read later.
+Date_Read: 2020/04/19
+Genre: Fiction
+
+Title: The Black Swan -  The Impact of the Highly Improbable
+Author: Nassim Nicholas Taleb
+URL:
+Status: finished
+Rating: 4
+Review: A mind changing book, a eye-opening way to reason about life that it is unpredictable, and how was it much harder to look back and find cause than guessing future.
+Date_Read: 2020/06/20
+Genre: Non-fiction, philosophy, math, probability
+
+Title: Harry Potter and the Prisoner of Azkaban
+Author: J. K. Rowling
+URL: https://en.wikipedia.org/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban
+Status: finished
+Rating: 4.5
+Review: My first ever book in Harry Potter series. I expected much more as known this as top rated sci-fi series in human history. A bit boring at first half but becomes better toward the end. Except the very end part, the whole story is pretty "dry", emotionless.  I was amazed how easy is it to read this whole book without a single time looking up word in dictionary. Finished in about 8 hours, spreading 4 days, it is good enough for 4.5/5.
+Date_Read: 2020/08/16
+Genre: scifi, fantasy
+
+Title: Sự im lặng của bầy cừu
+Author: Thomas Harris
+URL:
+Status: finished
+Rating: 5
+Review: Trilled, attractive.
+Date_Read: 2020/08/31
+Genre: scifi, horror, crime
+
+Title: Mãi đừng xa tôi
+Author: Kazuo Ishiguro
+URL: https://en.wikipedia.org/wiki/Never_Let_Me_Go_%28novel%29
+Status: finished
+Rating: 3
+Review: nội dung u ám, phần dịch có thể đã làm giảm độ hay của tác phẩm, khi
+đọc đến gần trăm trang mới hiểu "người hiến" là người được nhân bản vô tính
+để thu hoạch nội tạng.
+Date_Read: 2020/12
+Genre: scifi, dystopian
+
+Title: The three-body problem
+Author: Liu Cixin
+URL: https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)
+Status: finished
+Rating: 5
+Review: a page-turner, crazy attractive
+Date_Read: 2021-06-07
+Genre: scifi
+
+# End of books.rec
