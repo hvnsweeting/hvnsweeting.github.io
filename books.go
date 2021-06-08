@@ -32,6 +32,10 @@ See [Recfile]({attach}books.rec)
 [GNU Recutils](https://www.gnu.org/software/recutils/manual/recutils.html#Top)
 
 Discuss on [HackerNews](https://news.ycombinator.com/item?id=22153665)
+
+The language I used for book title is the language I read the book.
+Tên tác phẩm dùng ngôn ngữ nào thì tôi đọc cuốn sách bằng ngôn ngữ đó.
+
 {{ range $r := . }}
 ##{{ $r.Rating}}⭐ [{{ $r.Title }} by {{ $r.Author }}{{ if $r.Free }} [Free]{{end}}]({{ $r.URL }})
 *{{ $r.Status }}* *{{ $r.Date_Read }}*

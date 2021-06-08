@@ -10,6 +10,10 @@ See [Recfile]({attach}books.rec)
 
 Discuss on [HackerNews](https://news.ycombinator.com/item?id=22153665)
 
+The language I used for book title is the language I read the book.
+Tên tác phẩm dùng ngôn ngữ nào thì tôi đọc cuốn sách bằng ngôn ngữ đó.
+
+
 ##0⭐ [The Brothers Karamazov by Fyodor Dostoevsky [Free]](https://standardebooks.org/ebooks/fyodor-dostoevsky/the-brothers-karamazov/constance-garnett)
 *reading* **
 
