@@ -15,7 +15,7 @@ type BookReview struct {
 	URL       string
 	Free      bool
 	Status    string
-	Rating    float64
+	Rating    int64
 	Review    string
 	Date_Read string
 	Genre     string
@@ -77,7 +77,7 @@ func main() {
 		} else if strings.HasPrefix(t, "Rating:") {
 			rate := strings.TrimPrefix(t, "Rating:")
 			rate = strings.Trim(rate, " ")
-			r, err := strconv.ParseFloat(rate, 64)
+			r, err := strconv.ParseInt(rate, 10, 64)
 			if err != nil {
 				log.Fatal(err)
 			}
