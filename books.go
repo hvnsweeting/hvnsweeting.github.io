@@ -21,11 +21,11 @@ type BookReview struct {
 	Genre     string
 }
 
-var TEMPLATE string = `Title: Books
+var TEMPLATE string = `Title: Books review
 Date: 2020-02-02
 Slug: books
 Authors: hvnsweeting
-Summary: Book notes
+Summary: Books reviews
 
 See [Recfile]({attach}books.rec)
 

@@ -1,8 +1,8 @@
-Title: Book reviews
+Title: Books review
 Date: 2020-02-02
 Slug: books
 Authors: hvnsweeting
-Summary: Book notes
+Summary: Books reviews
 
 See [Recfile]({attach}books.rec)
 
@@ -59,7 +59,7 @@ Very dense, hard to read/grasp the meanings. Maybe read later.
 
 A mind changing book, a eye-opening way to reason about life that it is unpredictable, and how was it much harder to look back and find cause than guessing future.
 
-##4.5⭐ [Harry Potter and the Prisoner of Azkaban by J. K. Rowling](https://en.wikipedia.org/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban)
+##4⭐ [Harry Potter and the Prisoner of Azkaban by J. K. Rowling](https://en.wikipedia.org/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban)
 *finished* *2020/08/16*
 
 My first ever book in Harry Potter series. I expected much more as known this as top rated sci-fi series in human history. A bit boring at first half but becomes better toward the end. Except the very end part, the whole story is pretty "dry", emotionless.  I was amazed how easy is it to read this whole book without a single time looking up word in dictionary. Finished in about 8 hours, spreading 4 days, it is good enough for 4.5/5.
@@ -72,7 +72,7 @@ Trilled, attractive.
 ##3⭐ [Great Expectations by Charles Dickens [Free]](https://standardebooks.org/ebooks/charles-dickens/great-expectations)
 *finished* *2021/01*
 
-ordinary
+ordinary, less good than expected due to [its famous name](https://github.com/great-expectations/great_expectations) and author.
 
 ##3⭐ [Mãi đừng xa tôi by Kazuo Ishiguro](https://en.wikipedia.org/wiki/Never_Let_Me_Go_%28novel%29)
 *finished* *2021/01*
@@ -82,4 +82,4 @@ nội dung u ám, phần dịch có thể đã làm giảm độ hay của tác 
 ##5⭐ [The three-body problem by Liu Cixin](https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel))
 *finished* *2021/06/07*
 
-a page-turner, crazy attractive
+a page-turner, crazy attractive. With all science, astrophysic, quantum physics, environment issues, human/capitalism/religious... Finished in two days straight.
