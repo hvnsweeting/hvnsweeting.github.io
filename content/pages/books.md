@@ -17,7 +17,7 @@ Tên tác phẩm dùng ngôn ngữ nào thì tôi đọc cuốn sách bằng ng�
 ##0⭐ [The Brothers Karamazov by Fyodor Dostoevsky [Free]](https://standardebooks.org/ebooks/fyodor-dostoevsky/the-brothers-karamazov/constance-garnett)
 *reading* **
 
-
+TODO
 
 ##5⭐ [Siddhartha by Hermann Hesse [Free]](https://standardebooks.org/ebooks/hermann-hesse/siddhartha/gunther-olesch_anke-dreher_amy-coulter_stefan-langer_semyon-chaichenets)
 *finished* *2020/02/02*
@@ -77,7 +77,7 @@ ordinary
 ##3⭐ [Mãi đừng xa tôi by Kazuo Ishiguro](https://en.wikipedia.org/wiki/Never_Let_Me_Go_%28novel%29)
 *finished* *2021/01*
 
-nội dung u ám, phần dịch có thể đã làm giảm độ hay của tác phẩm, khi
+nội dung u ám, phần dịch có thể đã làm giảm độ hay của tác phẩm, khi đọc đến gần trăm trang mới hiểu "người hiến" là người được nhân bản vô tính để thu hoạch nội tạng.
 
 ##5⭐ [The three-body problem by Liu Cixin](https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel))
 *finished* *2021/06/07*
