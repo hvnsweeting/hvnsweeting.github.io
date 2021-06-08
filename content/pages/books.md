@@ -1,4 +1,4 @@
-Title: Books
+Title: Book reviews
 Date: 2020-02-02
 Slug: books
 Authors: hvnsweeting
