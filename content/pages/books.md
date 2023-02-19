@@ -82,4 +82,19 @@ nội dung u ám, phần dịch có thể đã làm giảm độ hay của tác 
 ##5⭐ [The three-body problem by Liu Cixin](https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel))
 *finished* *2021/06/07*
 
-a page-turner, crazy attractive. With all science, astrophysic, quantum physics, environment issues, human/capitalism/religious... Finished in two days straight.
+a page-turner, crazily attractive. With all science, astrophysic, quantum physics, environment issues, human/capitalism/religious... Finished in two days straight.
+
+##4⭐ [The kite runner by Khaled Hosseini](https://en.wikipedia.org/wiki/The_Kite_Runner)
+*finished* *2022/08/01*
+
+a coloful, but dark story with people with real human characteristics.
+
+##3⭐ [Để yên cho bác sĩ hiền by Ngô Đức Hùng](https://www.goodreads.com/book/show/39285026-y-n-cho-b-c-s-hi-n)
+*finished* *2022/07/01*
+
+ngoài câu chuyện chính nói lên sự vất vả và bất công của các bác sĩ công (và ngành y) khá "mở mắt" cho người đọc (1 bác sĩ công phục vụ hàng trăm người 1 ca so với bác sĩ viện tư phục vụ 5 10 người, rõ ràng không thể luôn tươi cười chăm sóc tỉ mỉ như nhau). Phần còn lại không thực sự hấp dẫn và nhiều phần lặp lại.
+
+##4⭐ [Anathem by Neal Stephenson](https://en.wikipedia.org/wiki/Anathem)
+*finished* *2023/02/18*
+
+the longest book of 937 pages I have read, for ~5 months (not consecutive, but ~30pages/1hour per day). It took first 1-200 pages to learn the world, new words (math, avout, fraa, suur, extramurous, jeejah, bullshyte...), then a wild adventure to the cosmos... It's hard science, with math, quantum physics, parallel world but readable. Interesting ideas but not mind blowing twist like the three-body problem. A book in 2008 predicted the Internet (called Reticulum) of 2023 with full of AI generated content (ChatGPT) is impresive.
