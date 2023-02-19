@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Viet Hung Nguyen (HVN)</title><link href="http://hvnsweeting.github.io/" rel="alternate"></link><link href="http://hvnsweeting.github.io/feeds/all.atom.xml" rel="self"></link><id>http://hvnsweeting.github.io/</id><updated>2019-05-05T00:00:00+07:00</updated><entry><title>An introduction to Linux system calls - and strace</title><link href="http://hvnsweeting.github.io/syscall.html" rel="alternate"></link><published>2019-05-05T00:00:00+07:00</published><updated>2019-05-05T00:00:00+07:00</updated><author><name>hvnsweeting</name></author><id>tag:hvnsweeting.github.io,2019-05-05:/syscall.html</id><summary type="html">&lt;p&gt;see what's going on under the hood&lt;/p&gt;</summary><content type="html">&lt;h2&gt;What is syscall - system call&lt;/h2&gt;
 &lt;p&gt;Excerpt from &lt;code&gt;man 2 syscalls&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;NAME
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;NAME
        syscalls - Linux system calls
 
 SYNOPSIS
@@ -9,34 +9,29 @@ SYNOPSIS
 
 DESCRIPTION
        The system call is the fundamental interface between an application and the Linux kernel.
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Any (useful) program on GNU/Linux OS would need to ask Linux kernel do
 something, e.g open/read/write to a file, use network, or memory...&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;PROGRAM &amp;lt;--------------&amp;gt; Linux kernel &amp;lt;---&amp;gt; hardware.
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;PROGRAM&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;--------------&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;Linux&lt;/span&gt; &lt;span class="n"&gt;kernel&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;---&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;hardware&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2&gt;How many syscalls?&lt;/h2&gt;
 &lt;p&gt;There are ~ 403 syscall(s) as of Linux version&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ uname -r
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ uname -r
 &lt;span class="m"&gt;4&lt;/span&gt;.15.0-46-generic
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;# get from man 2 syscalls output all lines which contain &amp;quot;(2)   number.number&amp;quot;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;# get from man 2 syscalls output all lines which contain &amp;quot;(2)   number.number&amp;quot;
 $ man 2 syscalls | grep -E &amp;#39;\(2\) +[0-9]\.[0-9]*&amp;#39; | wc -l
 403
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2&gt;Tools for observing syscall&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;strace&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ whatis strace
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ whatis strace
 strace &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;           - trace system calls and signals
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3&gt;Examples&lt;/h3&gt;
 &lt;h4&gt;How &lt;code&gt;free&lt;/code&gt; command work?&lt;/h4&gt;
@@ -44,7 +39,7 @@ strace &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&
 &lt;p&gt;Output will be (very) verbose.&lt;/p&gt;
 &lt;p&gt;Let see if &lt;code&gt;free&lt;/code&gt; cmd uses any &lt;code&gt;open*&lt;/code&gt; syscall to open (to later read data
 from) files:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ strace free 2&amp;gt;&amp;amp;1 | grep open
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ strace free 2&amp;gt;&amp;amp;1 | grep open
 openat(AT_FDCWD, &amp;quot;/etc/ld.so.cache&amp;quot;, O_RDONLY|O_CLOEXEC) = 3
 openat(AT_FDCWD, &amp;quot;/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0&amp;quot;, O_RDONLY|O_CLOEXEC) = 3
 openat(AT_FDCWD, &amp;quot;/lib/x86_64-linux-gnu/libprocps.so.6&amp;quot;, O_RDONLY|O_CLOEXEC) = 3
@@ -65,30 +60,27 @@ openat(AT_FDCWD, &amp;quot;/proc/meminfo&amp;quot;, O_RDONLY) = 3
 openat(AT_FDCWD, &amp;quot;/usr/share/locale/locale.alias&amp;quot;, O_RDONLY|O_CLOEXEC) = 4
 openat(AT_FDCWD, &amp;quot;/usr/share/locale/en/LC_MESSAGES/procps-ng.mo&amp;quot;, O_RDONLY) = -1 ENOENT (No such file or directory)
 openat(AT_FDCWD, &amp;quot;/usr/share/locale-langpack/en/LC_MESSAGES/procps-ng.mo&amp;quot;, O_RDONLY) = -1 ENOENT (No such file or directory)
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Skip all &lt;code&gt;.so&lt;/code&gt; files - which stand for shared object in a dynamic library
 that the program uses, and files that do not exist (ENOENT - see &lt;code&gt;man 3 errno&lt;/code&gt;)&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ strace free 2&amp;gt;&amp;amp;1 | grep open | grep -vF .so | grep -v ENOENT
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ strace free 2&amp;gt;&amp;amp;1 | grep open | grep -vF .so | grep -v ENOENT
 openat(AT_FDCWD, &amp;quot;/proc/sys/kernel/osrelease&amp;quot;, O_RDONLY) = 3
 openat(AT_FDCWD, &amp;quot;/sys/devices/system/cpu/online&amp;quot;, O_RDONLY|O_CLOEXEC) = 3
 openat(AT_FDCWD, &amp;quot;/usr/lib/locale/locale-archive&amp;quot;, O_RDONLY|O_CLOEXEC) = 3
 openat(AT_FDCWD, &amp;quot;/proc/sys/kernel/osrelease&amp;quot;, O_RDONLY) = 3
 openat(AT_FDCWD, &amp;quot;/proc/meminfo&amp;quot;, O_RDONLY) = 3
 openat(AT_FDCWD, &amp;quot;/usr/share/locale/locale.alias&amp;quot;, O_RDONLY|O_CLOEXEC) = 4
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Turns out, &lt;code&gt;free&lt;/code&gt; reads data from &lt;code&gt;/proc/meminfo&lt;/code&gt; (which exposed by Linux kernel).&lt;/p&gt;
 &lt;h4&gt;Where does &lt;code&gt;uptime&lt;/code&gt; cmd get data from?&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ uptime
- &lt;span class="m"&gt;00&lt;/span&gt;:39:59 up &lt;span class="m"&gt;2&lt;/span&gt; days, &lt;span class="m"&gt;11&lt;/span&gt;:33,  &lt;span class="m"&gt;3&lt;/span&gt; users,  load average: &lt;span class="m"&gt;0&lt;/span&gt;.00, &lt;span class="m"&gt;0&lt;/span&gt;.04, &lt;span class="m"&gt;0&lt;/span&gt;.08
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;$&lt;/span&gt; &lt;span class="n"&gt;uptime&lt;/span&gt;
+ &lt;span class="mi"&gt;00&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;39&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;59&lt;/span&gt; &lt;span class="n"&gt;up&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="n"&gt;days&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;33&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="n"&gt;users&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="nb"&gt;load&lt;/span&gt; &lt;span class="n"&gt;average&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.00&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.04&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.08&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;code&gt;strace&lt;/code&gt; option &lt;code&gt;-y&lt;/code&gt; print paths associated with file descriptor arguments.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ strace -y uptime 2&amp;gt;&amp;amp;1 | grep read | grep -vF .so
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ strace -y uptime 2&amp;gt;&amp;amp;1 | grep read | grep -vF .so
 read(3&amp;lt;/proc/sys/kernel/osrelease&amp;gt;, &amp;quot;4.15.0-46-generic\n&amp;quot;, 1024) = 18
 read(3&amp;lt;/sys/devices/system/cpu/online&amp;gt;, &amp;quot;0-3\n&amp;quot;, 8192) = 4
 read(3&amp;lt;/usr/share/zoneinfo/Asia/Ho_Chi_Minh&amp;gt;, &amp;quot;TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0\0\6\0\0\0\0&amp;quot;..., 4096) = 389
@@ -102,15 +94,14 @@ read(4&amp;lt;/run/utmp&amp;gt;, &amp;quot;\7\0\0\0\321V\0\0pts/6\0\0\0\0\0\0\0\
 read(4&amp;lt;/run/utmp&amp;gt;, &amp;quot;\7\0\0\0\321V\0\0pts/9\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0&amp;quot;..., 384) = 384
 read(4&amp;lt;/run/utmp&amp;gt;, &amp;quot;&amp;quot;, 384)             = 0
 read(4&amp;lt;/proc/loadavg&amp;gt;, &amp;quot;0.01 0.05 0.08 1/461 30551\n&amp;quot;, 8191) = 27
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3&gt;What are most common used syscalls?&lt;/h3&gt;
 &lt;p&gt;It actually depends on which program, a command like &lt;code&gt;free&lt;/code&gt; would not need
 network access like &lt;code&gt;ping&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;strace&lt;/code&gt; option &lt;code&gt;-c&lt;/code&gt; shows statistics, use &lt;code&gt;-S calls&lt;/code&gt; to sorts by most called
 syscall (desc).&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ strace -cS calls free &lt;span class="m"&gt;2&lt;/span&gt;&amp;gt;&lt;span class="p"&gt;&amp;amp;&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; head
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ strace -cS calls free &lt;span class="m"&gt;2&lt;/span&gt;&amp;gt;&lt;span class="p"&gt;&amp;amp;&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; head
               total        used        free      shared  buff/cache   available
 Mem:        &lt;span class="m"&gt;3943388&lt;/span&gt;      &lt;span class="m"&gt;842660&lt;/span&gt;      &lt;span class="m"&gt;700960&lt;/span&gt;      &lt;span class="m"&gt;109152&lt;/span&gt;     &lt;span class="m"&gt;2399768&lt;/span&gt;     &lt;span class="m"&gt;2704556&lt;/span&gt;
 Swap:             &lt;span class="m"&gt;0&lt;/span&gt;           &lt;span class="m"&gt;0&lt;/span&gt;           &lt;span class="m"&gt;0&lt;/span&gt;
@@ -121,11 +112,10 @@ Swap:             &lt;span class="m"&gt;0&lt;/span&gt;           &lt;span class=
  &lt;span class="m"&gt;53&lt;/span&gt;.45    &lt;span class="m"&gt;0&lt;/span&gt;.000031           &lt;span class="m"&gt;2&lt;/span&gt;        &lt;span class="m"&gt;20&lt;/span&gt;         &lt;span class="m"&gt;2&lt;/span&gt; openat
  &lt;span class="m"&gt;17&lt;/span&gt;.24    &lt;span class="m"&gt;0&lt;/span&gt;.000010           &lt;span class="m"&gt;1&lt;/span&gt;        &lt;span class="m"&gt;19&lt;/span&gt;           close
   &lt;span class="m"&gt;0&lt;/span&gt;.00    &lt;span class="m"&gt;0&lt;/span&gt;.000000           &lt;span class="m"&gt;0&lt;/span&gt;        &lt;span class="m"&gt;17&lt;/span&gt;           &lt;span class="nb"&gt;read&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;For &lt;code&gt;ping&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ sudo strace -cS calls ping -c1 &lt;span class="m"&gt;1&lt;/span&gt;.1.1.1
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ sudo strace -cS calls ping -c1 &lt;span class="m"&gt;1&lt;/span&gt;.1.1.1
 PING &lt;span class="m"&gt;1&lt;/span&gt;.1.1.1 &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;.1.1.1&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="m"&gt;56&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;84&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; bytes of data.
 &lt;span class="m"&gt;64&lt;/span&gt; bytes from &lt;span class="m"&gt;1&lt;/span&gt;.1.1.1: &lt;span class="nv"&gt;icmp_seq&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="nv"&gt;ttl&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;58&lt;/span&gt; &lt;span class="nv"&gt;time&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;32&lt;/span&gt;.4 ms
 
@@ -151,10 +141,9 @@ rtt min/avg/max/mdev &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;
   &lt;span class="m"&gt;0&lt;/span&gt;.66    &lt;span class="m"&gt;0&lt;/span&gt;.000003           &lt;span class="m"&gt;2&lt;/span&gt;         &lt;span class="m"&gt;2&lt;/span&gt;           ioctl
   &lt;span class="m"&gt;0&lt;/span&gt;.44    &lt;span class="m"&gt;0&lt;/span&gt;.000002           &lt;span class="m"&gt;1&lt;/span&gt;         &lt;span class="m"&gt;2&lt;/span&gt;           getuid
   &lt;span class="m"&gt;1&lt;/span&gt;.09    &lt;span class="m"&gt;0&lt;/span&gt;.000005           &lt;span class="m"&gt;3&lt;/span&gt;         &lt;span class="m"&gt;2&lt;/span&gt;           prctl
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ sudo strace -cS calls lsof -n
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ sudo strace -cS calls lsof -n
 ...
 
 % &lt;span class="nb"&gt;time&lt;/span&gt;     seconds  usecs/call     calls    errors syscall
@@ -171,11 +160,10 @@ rtt min/avg/max/mdev &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;
   &lt;span class="m"&gt;0&lt;/span&gt;.09    &lt;span class="m"&gt;0&lt;/span&gt;.000805           &lt;span class="m"&gt;3&lt;/span&gt;       &lt;span class="m"&gt;320&lt;/span&gt;           rt_sigaction
   &lt;span class="m"&gt;0&lt;/span&gt;.09    &lt;span class="m"&gt;0&lt;/span&gt;.000846           &lt;span class="m"&gt;3&lt;/span&gt;       &lt;span class="m"&gt;318&lt;/span&gt;           alarm
   &lt;span class="m"&gt;0&lt;/span&gt;.07    &lt;span class="m"&gt;0&lt;/span&gt;.000647           &lt;span class="m"&gt;4&lt;/span&gt;       &lt;span class="m"&gt;155&lt;/span&gt;           brk
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Some common used syscalls:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ whatis --section 2 read write openat close stat fstat lstat mmap munmap mprotect socket ioctl fcntl futex select connect bind access execve sendmsg recvmsg clone brk
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ whatis --section 2 read write openat close stat fstat lstat mmap munmap mprotect socket ioctl fcntl futex select connect bind access execve sendmsg recvmsg clone brk
 read (2)             - read from a file descriptor
 write (2)            - write to a file descriptor
 openat (2)           - open and possibly create a file
@@ -199,20 +187,17 @@ sendmsg (2)          - send a message on a socket
 recvmsg (2)          - receive a message from a socket
 clone (2)            - create a child process
 brk (2)              - change data segment size
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;For details, run &lt;code&gt;man 2 SYSCALL&lt;/code&gt;, e.g &lt;code&gt;man 2 select&lt;/code&gt;.&lt;/p&gt;
 &lt;h3&gt;Other useful usage of strace&lt;/h3&gt;
 &lt;h4&gt;Attach to a running process&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;strace -p PID
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;strace -p PID
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h4&gt;Follow forks&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;strace -f -p PID
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;strace -f -p PID
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3&gt;Scenarios&lt;/h3&gt;
 &lt;p&gt;Some scenarios that strace come to shine:&lt;/p&gt;
