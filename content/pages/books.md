@@ -13,6 +13,12 @@ Discuss on [HackerNews](https://news.ycombinator.com/item?id=22153665)
 The language I used for book title is the language I read the book.
 Tên tác phẩm dùng ngôn ngữ nào thì tôi đọc cuốn sách bằng ngôn ngữ đó.
 
+- 5⭐: awesome, loved it
+- 4⭐: like it
+- 3⭐: okayish
+- 2⭐: bad, boring, not understand
+- 1⭐: really bad, my not able to finish
+
 
 ##0⭐ [The Brothers Karamazov by Fyodor Dostoevsky [Free]](https://standardebooks.org/ebooks/fyodor-dostoevsky/the-brothers-karamazov/constance-garnett)
 *reading* **
@@ -99,7 +105,12 @@ ngoài câu chuyện chính nói lên sự vất vả và bất công của các
 
 the longest book of 937 pages I have read, for ~5 months (not consecutive, but ~30pages/1hour per day). It took first 1-200 pages to learn the world, new words (math, avout, fraa, suur, extramurous, jeejah, bullshyte...), then a wild adventure to the cosmos... It's hard science, with math, quantum physics, parallel world but readable. Interesting ideas but not mind blowing twist like the three-body problem. A book in 2008 predicted the Internet (called Reticulum) of 2023 with full of AI generated content (ChatGPT) is impresive.
 
-##5⭐ [Stranger in a Strange Land (1961) by Robert A. Heinlein](https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land)
+##4⭐ [Stranger in a Strange Land (1961) by Robert A. Heinlein](https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land)
 *finished* *2023-04-30*
 
 what would a novel about when a Martian visit Earth (and raised by Earth people)? it's not same survival story like "The martians" novel/movie, but a great questions about human, religions, faith. The writing is funny, the plot is attractive. Much more humorous than many other sci-fi. Oh and this is the source of the word "grok" - which is very popular in tech people. "Grok" is to drink, do you grok?  figuratively means "to comprehend", "to love", and "to be one with".
+
+##5⭐ [The Dark Forest (The Three-Body Problem Series, 2) by Liu Cixin](https://en.wikipedia.org/wiki/The_Dark_Forest)
+*finished* *2023-05-06*
+
+550 pages, extraordirary, the best sci-fi book I've read.
