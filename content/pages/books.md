@@ -19,98 +19,206 @@ Tên tác phẩm dùng ngôn ngữ nào thì tôi đọc cuốn sách bằng ng�
 - 2⭐: bad, boring, not understand
 - 1⭐: really bad, my not able to finish
 
+Title: The Brothers Karamazov
+Author: Fyodor Dostoevsky
+URL: https://standardebooks.org/ebooks/fyodor-dostoevsky/the-brothers-karamazov/constance-garnett
+Status: reading
+Rating: 0
+Date_Read:
+Review: TODO
 
-##0⭐ [The Brothers Karamazov by Fyodor Dostoevsky [Free]](https://standardebooks.org/ebooks/fyodor-dostoevsky/the-brothers-karamazov/constance-garnett)
-*reading* **
+Title: Siddhartha
+Author: Hermann Hesse
+URL: https://standardebooks.org/ebooks/hermann-hesse/siddhartha/gunther-olesch_anke-dreher_amy-coulter_stefan-langer_semyon-chaichenets
+Status: finished
+Rating: 5
+Date_Read: 2020-02-02
+Would_Read_Again: yes
+Review: Very poetic, insightful.
 
-TODO
+Title: The War of the Worlds
+Author: H. G. Wells
+URL: https://standardebooks.org/ebooks/h-g-wells/the-war-of-the-worlds
+Status: finished
+Rating: 3
+Review: Nice ending twist, this would be more amazing 100 years ago.
+Date_Read: 2020-01-25
+Genre: scifi
 
-##5⭐ [Siddhartha by Hermann Hesse [Free]](https://standardebooks.org/ebooks/hermann-hesse/siddhartha/gunther-olesch_anke-dreher_amy-coulter_stefan-langer_semyon-chaichenets)
-*finished* *2020/02/02*
+Title: The Invisible Man
+Author: H. G. Wells
+URL: https://standardebooks.org/ebooks/h-g-wells/the-invisible-man
+Status: finished
+Rating: 4
+Date_Read: 2019-12-08
 
-Very poetic, insightful.
+Title: Armageddon 2419 A.D.
+Author: Philip Francis Nowlan
+URL: https://standardebooks.org/ebooks/philip-francis-nowlan/armageddon-2419-a-d
+Status: finished
+Rating: 2
+Review: Nothing's special.
+Date_Read: 2020-01-20
+Genre: scifi
 
-##3⭐ [The War of the Worlds by H. G. Wells [Free]](https://standardebooks.org/ebooks/h-g-wells/the-war-of-the-worlds)
-*finished* *2020/01/25*
+Title: Homo Deus
+Author: Yuval Noah Harari
+URL: https://en.wikipedia.org/wiki/Homo_Deus:_A_Brief_History_of_Tomorrow
+Status: finished
+Rating: 3
+Review: The first half is repeatitive things from `Sapien` book - which is sure 5/5. The remaining discusses religions such as liberalism, communism, democracy, humanism, dataism and list out future scenarious are more interesting.
+Date_Read: 2020-04-11
+Genre: Non-fiction
 
-Nice ending twist, this would be more amazing 100 years ago.
+Title: The Adventures of Huckleberry Finn
+Author: Mark Twain
+URL: https://standardebooks.org/ebooks/mark-twain/the-adventures-of-huckleberry-finn
+Status: finished
+Rating: 3
+Review: A kid story, not so interesting until the very end.
+Date_Read: 2020-04-12
+Genre: Fiction
 
-##4⭐ [The Invisible Man by H. G. Wells [Free]](https://standardebooks.org/ebooks/h-g-wells/the-invisible-man)
-*finished* *2019/12/08*
+Title: Heart of darkness
+Author: Joseph Conrad
+URL: https://standardebooks.org/ebooks/joseph-conrad/heart-of-darkness
+Status: finished
+Rating: 2
+Review: Very dense, hard to read/grasp the meanings. Maybe read later.
+Date_Read: 2020-04-19
+Genre: Fiction
 
+Title: The Black Swan -  The Impact of the Highly Improbable
+Author: Nassim Nicholas Taleb
+URL:
+Status: finished
+Rating: 4
+Review: A mind changing book, a eye-opening way to reason about life that it is unpredictable, and how was it much harder to look back and find cause than guessing future.
+Date_Read: 2020-06-20
+Genre: Non-fiction, philosophy, math, probability
 
+Title: Harry Potter and the Prisoner of Azkaban
+Author: J. K. Rowling
+URL: https://en.wikipedia.org/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban
+Status: finished
+Rating: 4
+Review: My first ever book in Harry Potter series. I expected much more as known this as top rated sci-fi series in human history. A bit boring at first half but becomes better toward the end. Except the very end part, the whole story is pretty "dry", emotionless.  I was amazed how easy is it to read this whole book without a single time looking up word in dictionary. Finished in about 8 hours, spreading 4 days, it is good enough for 4.5/5.
+Date_Read: 2020-08-16
+Genre: scifi, fantasy
 
-##2⭐ [Armageddon 2419 A.D. by Philip Francis Nowlan [Free]](https://standardebooks.org/ebooks/philip-francis-nowlan/armageddon-2419-a-d)
-*finished* *2020/01/20*
+Title: Sự im lặng của bầy cừu
+Author: Thomas Harris
+URL:
+Status: finished
+Rating: 5
+Review: Trilled, attractive.
+Date_Read: 2020-08-31
+Genre: scifi, horror, crime
 
-Nothing's special.
+Title: Great Expectations
+Author: Charles Dickens
+URL: https://standardebooks.org/ebooks/charles-dickens/great-expectations
+Status: finished
+Rating: 3
+Review: ordinary, less good than expected due to [its famous name](https://github.com/great-expectations/great_expectations) and author.
+Date_Read: 2021-01
+Genre: fiction, England
 
-##3⭐ [Homo Deus by Yuval Noah Harari](https://en.wikipedia.org/wiki/Homo_Deus:_A_Brief_History_of_Tomorrow)
-*finished* *2020/04/11*
+Title: Mãi đừng xa tôi
+Author: Kazuo Ishiguro
+URL: https://en.wikipedia.org/wiki/Never_Let_Me_Go_%28novel%29
+Status: finished
+Rating: 3
+Review: nội dung u ám, phần dịch có thể đã làm giảm độ hay của tác phẩm, khi đọc đến gần trăm trang mới hiểu "người hiến" là người được nhân bản vô tính để thu hoạch nội tạng.
+Date_Read: 2021-01
+Genre: scifi, dystopian
 
-The first half is repeatitive things from `Sapien` book - which is sure 5/5. The remaining discusses religions such as liberalism, communism, democracy, humanism, dataism and list out future scenarious are more interesting.
+Title: The three-body problem
+Author: Liu Cixin
+URL: https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)
+Status: finished
+Rating: 5
+Review: a page-turner, crazily attractive. With all science, astrophysic, quantum physics, environment issues, human/capitalism/religious... Finished in two days straight.
+Date_Read: 2021-06-07
+Genre: scifi
 
-##3⭐ [The Adventures of Huckleberry Finn by Mark Twain [Free]](https://standardebooks.org/ebooks/mark-twain/the-adventures-of-huckleberry-finn)
-*finished* *2020/04/12*
+Title: The kite runner
+Author: Khaled Hosseini
+URL: https://en.wikipedia.org/wiki/The_Kite_Runner
+Status: finished
+Rating: 4
+Review: a coloful, but dark story with people with real human characteristics.
+Date_Read: 2022-08-01
+Genre: scifi
 
-A kid story, not so interesting until the very end.
+Title: Để yên cho bác sĩ hiền
+Author: Ngô Đức Hùng
+URL: https://www.goodreads.com/book/show/39285026-y-n-cho-b-c-s-hi-n
+Status: finished
+Rating: 3
+Review: ngoài câu chuyện chính nói lên sự vất vả và bất công của các bác sĩ công (và ngành y) khá "mở mắt" cho người đọc (1 bác sĩ công phục vụ hàng trăm người 1 ca so với bác sĩ viện tư phục vụ 5 10 người, rõ ràng không thể luôn tươi cười chăm sóc tỉ mỉ như nhau). Phần còn lại không thực sự hấp dẫn và nhiều phần lặp lại.
+Date_Read: 2022-07-01
+Genre: tản văn
 
-##2⭐ [Heart of darkness by Joseph Conrad [Free]](https://standardebooks.org/ebooks/joseph-conrad/heart-of-darkness)
-*finished* *2020/04/19*
+Title: Anathem
+Author: Neal Stephenson
+URL: https://en.wikipedia.org/wiki/Anathem
+Status: finished
+Rating: 4
+Review: the longest book of 937 pages I have read, for ~5 months (not consecutive, but ~30pages/1hour per day). It took first 1-200 pages to learn the world, new words (math, avout, fraa, suur, extramurous, jeejah, bullshyte...), then a wild adventure to the cosmos... It's hard science, with math, quantum physics, parallel world but readable. Interesting ideas but not mind blowing twist like the three-body problem. A book in 2008 predicted the Internet (called Reticulum) of 2023 with full of AI generated content (ChatGPT) is impresive.
+Date_Read: 2023-02-18
+Genre: scifi, speculative fiction
 
-Very dense, hard to read/grasp the meanings. Maybe read later.
+Title: Stranger in a Strange Land (1961)
+Author: Robert A. Heinlein
+URL: https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land
+Status: finished
+Rating: 4
+Review: what would a novel about when a Martian visit Earth (and raised by Earth people)? it's not same survival story like "The martians" novel/movie, but a great questions about human, religions, faith. The writing is funny, the plot is attractive. Much more humorous than many other sci-fi. Oh and this is the source of the word "grok" - which is very popular in tech people. "Grok" is to drink, do you grok?  figuratively means "to comprehend", "to love", and "to be one with".
+Date_Read: 2023-04-30
+Genre: scifi, speculative fiction
 
-##4⭐ [The Black Swan -  The Impact of the Highly Improbable by Nassim Nicholas Taleb]()
-*finished* *2020/06/20*
+Title: The Dark Forest (The Three-Body Problem Series, 2)
+Author: Liu Cixin
+URL: https://en.wikipedia.org/wiki/The_Dark_Forest
+Status: finished
+Rating: 5
+Review: 550 pages, extraordirary, the best sci-fi book I've read.
+Date_Read: 2023-05-06
+Genre: scifi, speculative fiction
 
-A mind changing book, a eye-opening way to reason about life that it is unpredictable, and how was it much harder to look back and find cause than guessing future.
+Title: Điều kỳ diệu của tiệm tạp hóa Namiya
+Author: Higashino Keigo
+URL: https://vi.wikipedia.org/wiki/%C4%90i%E1%BB%81u_k%E1%BB%B3_di%E1%BB%87u_c%E1%BB%A7a_ti%E1%BB%87m_t%E1%BA%A1p_h%C3%B3a_Namiya
+Status: finished
+Rating: 4
+Review: 358 pages, interesting story
+Date_Read: 2024-02-10
+Genre: novel
 
-##4⭐ [Harry Potter and the Prisoner of Azkaban by J. K. Rowling](https://en.wikipedia.org/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban)
-*finished* *2020/08/16*
+Title: Project Hail Mary
+Author: Andy Weir
+URL: https://en.wikipedia.org/wiki/Project_Hail_Mary
+Status: finished
+Rating: 5
+Review: 496 pages, funny, attractive writing from the very first page
+Date_Read: 2024-01-09
+Genre: scifi, speculative fiction
 
-My first ever book in Harry Potter series. I expected much more as known this as top rated sci-fi series in human history. A bit boring at first half but becomes better toward the end. Except the very end part, the whole story is pretty "dry", emotionless.  I was amazed how easy is it to read this whole book without a single time looking up word in dictionary. Finished in about 8 hours, spreading 4 days, it is good enough for 4.5/5.
+Title: Tàn ngày để lại
+Author: Kazuo Ishiguro
+URL: https://vi.wikipedia.org/wiki/T%C3%A0n_ng%C3%A0y_%C4%91%E1%BB%83_l%E1%BA%A1i
+Status: finished
+Rating: 2
+Review: dry and boring
+Date_Read: 2024-02-20
+Genre: novel
 
-##5⭐ [Sự im lặng của bầy cừu by Thomas Harris]()
-*finished* *2020/08/31*
-
-Trilled, attractive.
-
-##3⭐ [Great Expectations by Charles Dickens [Free]](https://standardebooks.org/ebooks/charles-dickens/great-expectations)
-*finished* *2021/01*
-
-ordinary, less good than expected due to [its famous name](https://github.com/great-expectations/great_expectations) and author.
-
-##3⭐ [Mãi đừng xa tôi by Kazuo Ishiguro](https://en.wikipedia.org/wiki/Never_Let_Me_Go_%28novel%29)
-*finished* *2021/01*
-
-nội dung u ám, phần dịch có thể đã làm giảm độ hay của tác phẩm, khi đọc đến gần trăm trang mới hiểu "người hiến" là người được nhân bản vô tính để thu hoạch nội tạng.
-
-##5⭐ [The three-body problem by Liu Cixin](https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel))
-*finished* *2021/06/07*
-
-a page-turner, crazily attractive. With all science, astrophysic, quantum physics, environment issues, human/capitalism/religious... Finished in two days straight.
-
-##4⭐ [The kite runner by Khaled Hosseini](https://en.wikipedia.org/wiki/The_Kite_Runner)
-*finished* *2022/08/01*
-
-a coloful, but dark story with people with real human characteristics.
-
-##3⭐ [Để yên cho bác sĩ hiền by Ngô Đức Hùng](https://www.goodreads.com/book/show/39285026-y-n-cho-b-c-s-hi-n)
-*finished* *2022/07/01*
-
-ngoài câu chuyện chính nói lên sự vất vả và bất công của các bác sĩ công (và ngành y) khá "mở mắt" cho người đọc (1 bác sĩ công phục vụ hàng trăm người 1 ca so với bác sĩ viện tư phục vụ 5 10 người, rõ ràng không thể luôn tươi cười chăm sóc tỉ mỉ như nhau). Phần còn lại không thực sự hấp dẫn và nhiều phần lặp lại.
-
-##4⭐ [Anathem by Neal Stephenson](https://en.wikipedia.org/wiki/Anathem)
-*finished* *2023/02/18*
-
-the longest book of 937 pages I have read, for ~5 months (not consecutive, but ~30pages/1hour per day). It took first 1-200 pages to learn the world, new words (math, avout, fraa, suur, extramurous, jeejah, bullshyte...), then a wild adventure to the cosmos... It's hard science, with math, quantum physics, parallel world but readable. Interesting ideas but not mind blowing twist like the three-body problem. A book in 2008 predicted the Internet (called Reticulum) of 2023 with full of AI generated content (ChatGPT) is impresive.
-
-##4⭐ [Stranger in a Strange Land (1961) by Robert A. Heinlein](https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land)
-*finished* *2023-04-30*
-
-what would a novel about when a Martian visit Earth (and raised by Earth people)? it's not same survival story like "The martians" novel/movie, but a great questions about human, religions, faith. The writing is funny, the plot is attractive. Much more humorous than many other sci-fi. Oh and this is the source of the word "grok" - which is very popular in tech people. "Grok" is to drink, do you grok?  figuratively means "to comprehend", "to love", and "to be one with".
-
-##5⭐ [The Dark Forest (The Three-Body Problem Series, 2) by Liu Cixin](https://en.wikipedia.org/wiki/The_Dark_Forest)
-*finished* *2023-05-06*
-
-550 pages, extraordirary, the best sci-fi book I've read.
+Title: Death's end (The Three-Body Problem Series, 3)
+Author: Liu Cixin
+URL: https://en.wikipedia.org/wiki/Death's_End
+Status: finished
+Rating: 5
+Review: 720 pages, the end of The Three-body problem series, extreme wild, extraordirary.
+Date_Read: 2024-03-09
+Genre: scifi, speculative fiction
