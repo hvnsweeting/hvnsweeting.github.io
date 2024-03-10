@@ -93,3 +93,5 @@ book:
 	go run books.go  > content/pages/books.md
 
 .PHONY: html help clean regenerate serve serve-global devserver stopserver publish ssh_upload rsync_upload github book
+
+

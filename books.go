@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"fmt"
 	"log"
 	"os"
 	"strconv"
@@ -65,6 +66,7 @@ func main() {
 
 		if strings.HasPrefix(t, "Title:") {
 			title := strings.TrimPrefix(t, "Title:")
+			fmt.Fprintf(os.Stderr, "Processing %s\n", title)
 			review.Title = strings.Trim(title, " ")
 		} else if strings.HasPrefix(t, "Author:") {
 			author := strings.TrimPrefix(t, "Author:")
